@@ -52,7 +52,9 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
 
 ## Window Managers
 ---
-* **i3**: GNOME Window and Tiling manager (select in login options) ***(not used in my config even tho it's installed)***
+* **i3**: GNOME Window and Tiling manager (select in login options)
+> [!WARNING] specifications
+***(not used in my config even tho it's installed)***
 * **PaperWM**: Tiling window manager extension for GNOME
 
 ## Applications
