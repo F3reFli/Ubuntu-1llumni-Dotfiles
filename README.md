@@ -2,6 +2,10 @@
 ---
 This document lists the customization and configuration ("ricing") of my Linux system.
 
+## Demo 
+---
+![Demo Preview]()
+
 ## Shell & Terminal
 ---
 * **Shell**: [Zsh](https://www.zsh.org/) with [Oh My Zsh](https://ohmyz.sh/)
