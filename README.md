@@ -4,7 +4,7 @@ This document lists the customization and configuration ("ricing") of my Linux s
 
 ## Demo 
 ---
-![Demo Preview]()
+![Demo Preview](demo/Screencast from 2025-12-04 00-31-13.webm)
 
 ## Shell & Terminal
 ---
