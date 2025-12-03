@@ -23,7 +23,7 @@ This document lists the customization and configuration ("ricing") of my Linux s
 * **LSP & Autocompletion**: Configured via LazyVim
 * **Additional Plugins**:
     * AI and completion
-    > [CodeCompanion](https://github.com/olimorris/codecompanion.nvim) (Free AI Assistant)
+    > [CodeCompanion](https://github.com/olimorris/codecompanion.nvim) (Free AI Assistant) 
     > [Github Copilot](https://github.com/github/copilot.vim) (Code completion)
     > [Copilot Chat](https://github.com/olimorris/codecompanion.nvim) (paid AI assistant)
     * Themes and visuals
