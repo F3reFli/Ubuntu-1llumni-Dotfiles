@@ -1,6 +1,15 @@
-# My Ricing Configuration
+<div align="center">
+
+# Ubuntu Illumini Dotfiles
 ---
 This document lists the customization and configuration ("ricing") of my Linux system.
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![GNOME](https://img.shields.io/badge/GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+</div>
 
 ## Demo 
 ---
