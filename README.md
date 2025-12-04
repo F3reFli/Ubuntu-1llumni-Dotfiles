@@ -15,6 +15,15 @@ This document lists the customization and configuration ("ricing") of my Linux s
 ---
 ![Demo Preview](demo/demo.gif)
 
+## Table of Contents
+
+- [Shell & Terminal](#️-shell--terminal)
+- [Editor](#-editor)
+- [Desktop Environment](#-desktop-environment-gnome)
+- [Window Managers](#-window-managers)
+- [Applications](#-applications)
+- [Bootloader](#-bootloader-grub
+
 ## Shell & Terminal
 ---
 * **Shell**: [Zsh](https://www.zsh.org/) with [Oh My Zsh](https://ohmyz.sh/)
