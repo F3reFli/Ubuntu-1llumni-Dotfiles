@@ -5,9 +5,9 @@
 This document lists the customization and configuration ("ricing") of my Linux system.
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-000000?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-![GNOME](https://img.shields.io/badge/GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white)
-![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Neovim](https://img.shields.io/badge/NeoVim-000000?style=for-the-badge&logo=neovim&logoColor=white)
+![GNOME](https://img.shields.io/badge/GNOME-000000?style=for-the-badge&logo=gnome&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 </div>
 
@@ -84,3 +84,8 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
 * **Themes**:
     * `double-minegrub-menu` (Minecraft-inspired theme)
     * `Gorgeous-GRUB-Archive`
+
+<div align="center">
+## By 1llumni 
+</div>
+---
