@@ -84,11 +84,10 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
 * **Themes**:
     * `double-minegrub-menu` (Minecraft-inspired theme)
     * `Gorgeous-GRUB-Archive`
+---
 
 <div align="center">
 
 # By 1llumni 
 
 </div>
-
----
