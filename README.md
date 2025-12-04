@@ -86,6 +86,9 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
     * `Gorgeous-GRUB-Archive`
 
 <div align="center">
-## By 1llumni 
+
+# By 1llumni 
+
 </div>
+
 ---
