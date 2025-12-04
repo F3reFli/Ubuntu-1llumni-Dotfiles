@@ -15,6 +15,9 @@ This document lists the customization and configuration ("ricing") of my Linux s
 ---
 ![Demo Preview](demo/demo.gif)
 
+---
+<div align="center">
+
 ## Table of Contents
 
 - [Shell & Terminal](#️-shell--terminal)
@@ -22,7 +25,10 @@ This document lists the customization and configuration ("ricing") of my Linux s
 - [Desktop Environment](#-desktop-environment-gnome)
 - [Window Managers](#-window-managers)
 - [Applications](#-applications)
-- [Bootloader](#-bootloader-grub
+- [Bootloader](#-bootloader-grub)
+
+</div>
+--- 
 
 ## Shell & Terminal
 ---
