@@ -89,5 +89,5 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
 <div align="center">
 
 # By 1llumni 
-
+## made with <3 for ESGI community
 </div>
