@@ -21,15 +21,14 @@ This document lists the customization and configuration ("ricing") of my Linux s
 
 ## Table of Contents
 
-[Shell & Terminal](#️-shell--terminal)
-[Editor](#-editor)
-[Desktop Environment](#-desktop-environment-gnome)
-[Window Managers](#-window-managers)
-[Applications](#-applications)
-[Bootloader](#-bootloader-grub)
-
 </div>
 
+- [Shell & Terminal](#️-shell--terminal)
+- [Editor](#-editor)
+- [Desktop Environment](#-desktop-environment-gnome)
+- [Window Managers](#-window-managers)
+- [Applications](#-applications)
+- [Bootloader](#-bootloader-grub)
 --- 
 
 ## Shell & Terminal
