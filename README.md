@@ -23,15 +23,15 @@ This document lists the customization and configuration ("ricing") of my Linux s
 
 </div>
 
-- [Shell & Terminal](#️-shell--terminal)
-- [Editor](#-editor)
-- [Desktop Environment](#-desktop-environment-gnome)
-- [Window Managers](#-window-managers)
-- [Applications](#-applications)
-- [Bootloader](#-bootloader-grub)
+- [Shell and Terminal](#shell-and-terminal)
+- [Editor](#editor)
+- [Desktop Environment](#desktop-environment-gnome)
+- [Window Managers](#window-managers)
+- [Applications](#applications)
+- [Bootloader](#bootloader-grub)
 --- 
 
-## Shell & Terminal
+## Shell and Terminal
 ---
 * **Shell**: [Zsh](https://www.zsh.org/) with [Oh My Zsh](https://ohmyz.sh/)
 * **Prompt**: [Starship](https://starship.rs/)
