@@ -34,6 +34,7 @@ After installation:
 2. Open **Neovim** (`nvim`) to install plugins
 3. Run `./verify-setup.sh` to check installation
 4. If needed: `./apply-gnome-settings.sh` to reapply GNOME settings
+5. **Configure OpenBar colors** - See `EXTENSION_CONFIG.md` for color settings and widget setup
 
 ### What Gets Installed
 
@@ -46,15 +47,16 @@ After installation:
 - Dark mode and custom terminal theme
 - Development tools (NVM, GitHub CLI)
 
-### Helper Scripts
+### Helper Scripts & Documentation
 
 - **`install.sh`** - Main installation script
 - **`verify-setup.sh`** - Verify installation status
 - **`apply-gnome-settings.sh`** - Reapply GNOME settings
+- **`EXTENSION_CONFIG.md`** - ⭐ **Extension color configuration guide**
 - **`QUICKSTART.md`** - Quick start guide
 - **`TROUBLESHOOTING.md`** - Troubleshooting guide
 
-### Manual Extension Installation
+### Manual Extension Setup
 
 If GNOME extensions don't auto-install, use **Extension Manager** app or visit:
 - https://extensions.gnome.org
@@ -63,6 +65,9 @@ Required extensions:
 - PaperWM, Tiling Assistant, Tiling Shell
 - Blur My Shell, OpenBar, Just Perfection
 - Clipboard Indicator, Media Controls, Hide Top Bar
+
+> **Important:** Extension settings (especially OpenBar colors) require manual configuration.  
+> 📖 **See [`EXTENSION_CONFIG.md`](EXTENSION_CONFIG.md)** for detailed color values and widget setup to match this rice exactly.
 
 
 
