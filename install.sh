@@ -146,13 +146,39 @@ else
 fi
 
 # 6. Applications
-log "Installing Applications (Kew, Feh, GitHub CLI)..."
-sudo apt install -y kew feh gh
+log "Installing Applications (Feh, GitHub CLI)..."
+sudo apt install -y feh gh
 
-# 7. GNOME Extensions (Best Effort)
+# Try to install Kew (might not be in repos)
+if sudo apt install -y kew 2>/dev/null; then
+    success "Kew installed."
+else
+    warn "Kew not found in repositories. Skipping."
+fi
+
+# 7. Wallpaper
+log "Setting up Wallpaper..."
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
+mkdir -p "$WALLPAPER_DIR"
+if [ -f "./wallpapers/wallpaper.jpg" ]; then
+  cp "./wallpapers/wallpaper.jpg" "$WALLPAPER_DIR/wallpaper.jpg"
+  
+  if command -v gsettings &>/dev/null; then
+    gsettings set org.gnome.desktop.background picture-uri "file://$WALLPAPER_DIR/wallpaper.jpg"
+    gsettings set org.gnome.desktop.background picture-uri-dark "file://$WALLPAPER_DIR/wallpaper.jpg"
+    success "Wallpaper set successfully."
+  else
+    warn "gsettings not found. Wallpaper copied but not set."
+  fi
+else
+  warn "Wallpaper file not found in ./wallpapers/wallpaper.jpg"
+fi
+
+# 8. GNOME Extensions (Best Effort)
 log "Installing GNOME Extensions tools..."
 sudo apt install -y gnome-shell-extensions gnome-shell-extension-manager pipx
 pipx ensurepath
+export PATH="$PATH:$HOME/.local/bin"
 
 # Attempt to install gnome-extensions-cli to help user
 if ! command -v gnome-extensions-cli &>/dev/null; then
@@ -174,6 +200,7 @@ EXTENSIONS=(
   "mediacontrols@cliffniff.github.com"
   "quick-settings-tweaks@atareao.es"
   "workspace-indicator@gnome-shell-extensions.gcampax.github.com"
+  "tilingshell@domandoman.xyz"
 )
 
 if command -v gnome-extensions-cli &>/dev/null; then
@@ -185,7 +212,16 @@ else
   warn "gnome-extensions-cli not found. Please install these extensions manually: ${EXTENSIONS[*]}"
 fi
 
-# 8. Bootloader (GRUB)
+# Apply GNOME Extensions Configuration
+if [ -f "./gnome-extensions.dconf" ]; then
+  log "Applying GNOME Extensions configuration..."
+  dconf load /org/gnome/shell/extensions/ < "./gnome-extensions.dconf"
+  success "Extensions configuration applied."
+else
+  warn "gnome-extensions.dconf not found. Skipping configuration."
+fi
+
+# 9. Bootloader (GRUB)
 log "Downloading GRUB Theme (Minecraft)..."
 if [ ! -d "$HOME/double-minegrub-menu" ]; then
   git clone https://github.com/Lxtharia/double-minegrub-menu "$HOME/double-minegrub-menu"
@@ -195,7 +231,7 @@ else
   warn "GRUB theme directory already exists."
 fi
 
-# 9. Finalizing
+# 10. Finalizing
 log "Changing default shell to Zsh..."
 sudo chsh -s $(which zsh) $USER
 

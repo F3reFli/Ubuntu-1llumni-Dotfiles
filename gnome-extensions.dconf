@@ -1,0 +1,399 @@
+[blur-my-shell]
+brightness=0.6
+color-and-noise=false
+debug=false
+hacks-level=1
+noise-amount=0.0
+noise-lightness=0.0
+sigma=30
+
+[blur-my-shell/appfolder]
+blur=true
+brightness=0.6
+sigma=30
+style-dialogs=0
+
+[blur-my-shell/applications]
+blur=true
+blur-on-overview=true
+brightness=0.6
+dynamic-opacity=true
+opacity=220
+sigma=30
+whitelist=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.6
+pipeline='pipeline_default'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+unblur-in-overview=false
+
+[blur-my-shell/hidetopbar]
+compatibility=false
+
+[blur-my-shell/lockscreen]
+blur=true
+brightness=0.6
+sigma=30
+
+[blur-my-shell/overview]
+blur=true
+brightness=0.6
+pipeline='pipeline_default'
+sigma=30
+style-components=0
+
+[blur-my-shell/panel]
+blur=true
+brightness=0.6
+force-light-text=false
+override-background=true
+override-background-dynamically=false
+pipeline='pipeline_default'
+sigma=30
+static-blur=true
+style-panel=0
+
+[blur-my-shell/screenshot]
+blur=true
+brightness=0.6
+sigma=30
+
+[blur-my-shell/window-list]
+blur=true
+brightness=0.6
+sigma=30
+
+[clipboard-indicator]
+cache-size=50
+confirm-clear=true
+disable-down-arrow=false
+display-mode=0
+enable-keybindings=true
+history-size=50
+move-item-first=true
+notify-on-copy=false
+preview-size=30
+strip-text=true
+toggle-menu=['<Super>v']
+topbar-preview-size=10
+
+[hidetopbar]
+enable-active-window=false
+enable-intellihide=true
+hot-corner=false
+mouse-sensitive=true
+mouse-sensitive-fullscreen-window=true
+pressure-threshold=100
+shortcut-delay=0.2
+shortcut-keybind=['<Super>b']
+show-in-overview=true
+
+[just-perfection]
+accessibility-menu=true
+activities-button=false
+activities-button-icon-monochrome=true
+activities-button-label=false
+aggregate-menu=true
+alt-tab-icon-size=0
+alt-tab-small-icon-size=0
+alt-tab-window-preview-size=0
+animation=1
+app-menu=false
+app-menu-icon=true
+app-menu-label=true
+background-menu=true
+calendar=true
+clock-menu=true
+clock-menu-position=0
+clock-menu-position-offset=0
+controls-manager-spacing-size=0
+dash=true
+dash-app-running=true
+dash-icon-size=0
+dash-separator=true
+double-super-to-appgrid=true
+events-button=true
+gesture=true
+hot-corner=false
+keyboard-layout=true
+looking-glass-height=0
+looking-glass-width=0
+notification-banner-position=2
+osd=true
+osd-position=0
+panel=true
+panel-arrow=true
+panel-button-padding-size=0
+panel-corner-size=0
+panel-icon-size=0
+panel-in-overview=true
+panel-notification-icon=true
+panel-size=0
+power-icon=true
+quick-settings=true
+ripple-box=true
+screen-sharing-indicator=true
+search=true
+show-apps-button=true
+startup-status=1
+switcher-popup-delay=true
+theme=false
+top-panel-position=0
+window-demands-attention-focus=false
+window-menu-take-screenshot-button=true
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=true
+workspace-switcher-should-show=false
+workspace-wrap-around=false
+workspaces-in-app-grid=true
+world-clock=true
+
+[mediacontrols]
+colored-player-icon=false
+elements-order=['icon', 'title', 'controls', 'menu']
+extension-position='Right'
+fixed-label-width=false
+label-width=200
+max-widget-width=0
+mouse-actions-left='Play/Pause'
+mouse-actions-middle='None'
+mouse-actions-right='Next Track'
+mouse-actions-scroll-down='Volume Down'
+mouse-actions-scroll-up='Volume Up'
+show-control-icons=true
+show-control-icons-play=true
+show-control-icons-seek-backward=false
+show-control-icons-seek-forward=false
+show-label=true
+show-player-icon=true
+show-seek-bar=false
+track-label=['{{ artist }} - {{ title }}']
+
+[openbar]
+autotheme-dark='Adwaita-Dark'
+autotheme-light='Adwaita'
+autotheme-refresh=false
+bg-change=false
+bgcolor=['0.000', '0.000', '0.000']
+bggradient-direction='vertical'
+bguri='file:///home/illumni/.local/share/backgrounds/2025-11-20-08-55-56-25706e6dca7329e712210535e7ecde8d(1).jpg'
+box-margin=0.0
+box-padding=0.0
+bradius=0.0
+dark-bcolor=['0.220', '0.220', '0.220']
+dark-bgcolor=['0.000', '0.000', '0.000']
+dark-bgcolor-wmax=['0.000', '0.000', '0.000']
+dark-bgcolor2=['0.000', '0.000', '0.000']
+dark-bguri='file:///home/illumni/.local/share/backgrounds/2025-11-20-08-55-56-25706e6dca7329e712210535e7ecde8d(1).jpg'
+dark-boxcolor=['0.000', '0.000', '0.000']
+dark-hcolor=['0.110', '0.110', '0.110']
+dark-hscd-color=['0.702', '0.702', '0.702']
+dark-iscolor=['0.000', '0.000', '0.000']
+dark-mbcolor=['0.129', '0.129', '0.129']
+dark-mbgcolor=['0.000', '0.000', '0.000']
+dark-mhcolor=['0.129', '0.129', '0.129']
+dark-mscolor=['0.702', '0.702', '0.702']
+dark-mshcolor=['0.000', '0.000', '0.000']
+dark-palette1=['22', '24', '24']
+dark-palette10=['83', '84', '92']
+dark-palette11=['148', '140', '124']
+dark-palette12=['148', '132', '124']
+dark-palette2=['179', '180', '180']
+dark-palette3=['67', '70', '69']
+dark-palette4=['113', '114', '114']
+dark-palette5=['50', '60', '58']
+dark-palette6=['230', '230', '230']
+dark-palette7=['83', '92', '90']
+dark-palette8=['139', '148', '146']
+dark-palette9=['139', '140', '148']
+dark-shcolor=['0.000', '0.000', '0.000']
+dark-smbgcolor=['0.314', '0.322', '0.318']
+dark-vw-color=['0.702', '0.702', '0.702']
+dark-winbcolor=['0.702', '0.702', '0.702']
+dashdock-style='Custom'
+dbgcolor=['0.000', '0.000', '0.000']
+default-font='Sans 12'
+fgalpha=1.0
+fgcolor=['1.000', '1.000', '1.000']
+fitts-widgets=false
+gradient=false
+gradient-direction='horizontal'
+halpha=0.65000000000000002
+hcolor=['1.000', '1.000', '1.000']
+heffect=false
+height=35.0
+hscd-color=['0.702', '0.702', '0.702']
+import-export=false
+isalpha=1.0
+iscolor=['0.000', '0.000', '0.000']
+light-bcolor=['0.682', '0.624', '0.596']
+light-bgcolor=['0.165', '0.200', '0.192']
+light-bgcolor-wmax=['0.922', '0.922', '0.922']
+light-bgcolor2=['0.314', '0.322', '0.318']
+light-bguri='file:///home/illumni/.local/share/backgrounds/2025-11-20-08-55-56-25706e6dca7329e712210535e7ecde8d(1).jpg'
+light-boxcolor=['0.165', '0.200', '0.192']
+light-hcolor=['0.325', '0.361', '0.353']
+light-hscd-color=['0.702', '0.702', '0.702']
+light-iscolor=['0.165', '0.200', '0.192']
+light-mbcolor=['0.325', '0.361', '0.353']
+light-mbgcolor=['0.094', '0.094', '0.094']
+light-mhcolor=['0.325', '0.361', '0.353']
+light-mscolor=['0.702', '0.702', '0.702']
+light-mshcolor=['0.000', '0.000', '0.000']
+light-palette1=['22', '24', '24']
+light-palette10=['83', '84', '92']
+light-palette11=['148', '140', '124']
+light-palette12=['148', '132', '124']
+light-palette2=['179', '180', '180']
+light-palette3=['67', '70', '69']
+light-palette4=['113', '114', '114']
+light-palette5=['50', '60', '58']
+light-palette6=['230', '230', '230']
+light-palette7=['83', '92', '90']
+light-palette8=['139', '148', '146']
+light-palette9=['139', '140', '148']
+light-shcolor=['0.000', '0.000', '0.000']
+light-smbgcolor=['0.314', '0.322', '0.318']
+light-vw-color=['0.702', '0.702', '0.702']
+light-winbcolor=['0.702', '0.702', '0.702']
+margin=0.0
+mbcolor=['0.545', '0.549', '0.580']
+mbgcolor=['0.094', '0.094', '0.094']
+mfgalpha=1.0
+mfgcolor=['1.0', '1.0', '1.0']
+mhcolor=['0.545', '0.549', '0.580']
+monitor-height=1080
+monitor-width=1920
+mscolor=['0.702', '0.702', '0.702']
+mshcolor=['0.000', '0.000', '0.000']
+neon=true
+palette1=['22', '24', '24']
+palette10=['83', '84', '92']
+palette11=['148', '140', '124']
+palette12=['148', '132', '124']
+palette2=['179', '180', '180']
+palette3=['67', '70', '69']
+palette4=['113', '114', '114']
+palette5=['50', '60', '58']
+palette6=['230', '230', '230']
+palette7=['83', '92', '90']
+palette8=['139', '148', '146']
+palette9=['139', '140', '148']
+pause-reload=false
+position='Top'
+radius-bottomleft=true
+radius-topleft=true
+radius-topright=true
+reloadstyle=true
+set-fullscreen=false
+set-notif-position=true
+set-overview=true
+shadow=false
+shcolor=['0.000', '0.000', '0.000']
+smbgcolor=['0.314', '0.322', '0.318']
+trigger-autotheme=false
+trigger-reload=false
+vw-color=['0.702', '0.702', '0.702']
+width-bottom=true
+width-left=true
+width-right=true
+width-top=true
+winbcolor=['0.702', '0.702', '0.702']
+
+[paperwm]
+cycle-height-steps=[0.38195000000000001, 0.5, 0.61804000000000003]
+cycle-width-steps=[0.38195000000000001, 0.5, 0.61804000000000003]
+default-focus-mode=0
+disable-scratch-in-overview=true
+disable-topbar-styling=false
+edge-preview-click-enable=false
+edge-preview-enable=true
+edge-preview-scale=0.040000000000000001
+gesture-enabled=false
+gesture-workspace-fingers=0
+last-used-display-server='Wayland'
+maximize-width-percent=1.0
+maximize-within-tiling=true
+only-scratch-in-overview=false
+open-window-position=0
+overview-ensure-viewport-animation=2
+restore-attach-modal-dialogs='true'
+restore-edge-tiling='true'
+restore-keybinds='{"cancel-input-capture":{"bind":"[\\"<Super><Shift>Escape\\"]","schema_id":"org.gnome.mutter.keybindings"},"toggle-tiled-left":{"bind":"[\\"<Super>Left\\"]","schema_id":"org.gnome.mutter.keybindings"},"toggle-tiled-right":{"bind":"[\\"<Super>Right\\"]","schema_id":"org.gnome.mutter.keybindings"},"restore-shortcuts":{"bind":"[\\"<Super>Escape\\"]","schema_id":"org.gnome.mutter.wayland.keybindings"},"switch-to-workspace-last":{"bind":"[\\"<Super>End\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels":{"bind":"[\\"<Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group-backward":{"bind":"[\\"<Shift><Super>Above_Tab\\",\\"<Shift><Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-1":{"bind":"[\\"<Super>Home\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-left":{"bind":"[\\"<Super><Shift>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-down":{"bind":"[\\"<Super><Shift>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-left":{"bind":"[\\"<Super>Page_Up\\",\\"<Super><Alt>Left\\",\\"<Control><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"toggle-fullscreen":{"bind":"[\\"<Alt>f\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-group":{"bind":"[\\"<Super>Above_Tab\\",\\"<Alt>Above_Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-left":{"bind":"[\\"<Super><Shift>Page_Up\\",\\"<Super><Shift><Alt>Left\\",\\"<Control><Shift><Alt>Left\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-right":{"bind":"[\\"<Super><Shift>Page_Down\\",\\"<Super><Shift><Alt>Right\\",\\"<Control><Shift><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-panels-backward":{"bind":"[\\"<Shift><Control><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-up":{"bind":"[\\"<Control><Shift><Alt>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-to-workspace-right":{"bind":"[\\"<Super>Page_Down\\",\\"<Super><Alt>Right\\",\\"<Control><Alt>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-workspace-down":{"bind":"[\\"<Control><Shift><Alt>Down\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications":{"bind":"[\\"<Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows":{"bind":"[\\"<Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-right":{"bind":"[\\"<Super><Shift>Right\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-applications-backward":{"bind":"[\\"<Shift><Super>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"switch-windows-backward":{"bind":"[\\"<Shift><Alt>Tab\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"move-to-monitor-up":{"bind":"[\\"<Super><Shift>Up\\"]","schema_id":"org.gnome.desktop.wm.keybindings"},"shift-overview-up":{"bind":"[\\"<Super><Alt>Up\\"]","schema_id":"org.gnome.shell.keybindings"},"shift-overview-down":{"bind":"[\\"<Super><Alt>Down\\"]","schema_id":"org.gnome.shell.keybindings"},"focus-active-notification":{"bind":"[\\"<Super>n\\"]","schema_id":"org.gnome.shell.keybindings"},"toggle-message-tray":{"bind":"[\\"<Super>v\\",\\"<Super>m\\"]","schema_id":"org.gnome.shell.keybindings"},"rotate-video-lock-static":{"bind":"[\\"<Super>o\\",\\"XF86RotationLockToggle\\"]","schema_id":"org.gnome.settings-daemon.plugins.media-keys"},"tile-left-half":{"bind":"[\\"<Super>Left\\",\\"<Super>KP_4\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"},"tile-right-half":{"bind":"[\\"<Super>Right\\",\\"<Super>KP_6\\"]","schema_id":"org.gnome.shell.extensions.tiling-assistant"}}'
+restore-workspaces-only-on-primary='true'
+selection-border-size=0
+show-focus-mode-icon=true
+show-open-position-icon=false
+show-window-position-bar=false
+show-workspace-indicator=false
+swipe-sensitivity=[2.7000000000000006, 2.0]
+use-default-background=true
+vertical-margin-bottom=20
+window-gap=15
+winprops=@as []
+
+[paperwm/keybindings]
+close-window=['<Shift><Alt>q']
+drift-left=['<Super>Left']
+drift-right=['<Super>Right']
+move-down=['<Shift><Alt>Down']
+move-left=['<Shift><Alt>Left']
+move-right=['<Shift><Alt>Right']
+move-up=['<Shift><Alt>Up']
+paper-toggle-fullscreen=['<Shift><Alt>f']
+resize-h-dec=['<Shift><Alt>i']
+resize-h-inc=['<Shift><Alt>o']
+resize-w-dec=['<Shift><Alt>u']
+resize-w-inc=['<Shift><Alt>p']
+switch-down=['<Alt>Down']
+switch-left=['<Alt>Left']
+switch-next=['']
+switch-previous=['']
+switch-right=['<Alt>Right']
+switch-up=['<Alt>Up']
+toggle-maximize-width=['<Alt>f']
+
+[paperwm/workspaces]
+list=['8f998103-d9ae-48f9-8dad-9fbbce202887', '99f909fa-cb98-49e5-bc32-b5864d7093fc', '8e171bc0-cd34-4700-8700-0d9bdb566dba', '2c70d3f4-2326-4e38-b698-11a3c7344835']
+
+[paperwm/workspaces/2c70d3f4-2326-4e38-b698-11a3c7344835]
+index=3
+
+[paperwm/workspaces/8e171bc0-cd34-4700-8700-0d9bdb566dba]
+index=2
+
+[paperwm/workspaces/8f998103-d9ae-48f9-8dad-9fbbce202887]
+background=''
+color='rgb(255,255,255)'
+index=0
+show-position-bar=true
+show-top-bar=true
+
+[paperwm/workspaces/99f909fa-cb98-49e5-bc32-b5864d7093fc]
+background=''
+color='rgb(246,245,244)'
+index=1
+
+[tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+restore-window=['<Super>Down']
+tile-left-half=@as []
+tile-maximize=['<Super>Up', '<Super>KP_5']
+tile-right-half=@as []
+tiling-popup-all-workspace=true
+
+[tilingshell]
+last-version-name-installed='17.1'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+overridden-settings='{}'
+selected-layouts=[['Layout 1'], ['Layout 1']]
+window-use-custom-border-color=true
