@@ -45,7 +45,7 @@ log "Script directory: $SCRIPT_DIR"
 log "Updating system and installing dependencies..."
 sudo apt update
 sudo apt install -y git curl wget unzip fontconfig python3-pip zsh build-essential \
-    zsh-autosuggestions zsh-syntax-highlighting ripgrep fd-find tmux dconf-cli glib2.0-bin
+    zsh-autosuggestions zsh-syntax-highlighting ripgrep fd-find tmux dconf-cli libglib2.0-bin
 
 # 2. Copy tmux config if exists
 if [ -f "$SCRIPT_DIR/.tmux.conf" ]; then
