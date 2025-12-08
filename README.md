@@ -17,6 +17,55 @@ This document lists the customization and configuration ("ricing") of my Linux s
 
 ---
 
+## Installation
+---
+
+### Quick Install
+
+```bash
+git clone https://github.com/yourusername/ubuntuIllumniDotfiles.git
+cd ubuntuIllumniDotfiles
+chmod +x install.sh
+./install.sh
+```
+
+After installation:
+1. **Restart your computer** or log out/in
+2. Open **Neovim** (`nvim`) to install plugins
+3. Run `./verify-setup.sh` to check installation
+4. If needed: `./apply-gnome-settings.sh` to reapply GNOME settings
+
+### What Gets Installed
+
+- Zsh with Oh My Zsh + Starship prompt
+- Shell plugins (autosuggestions, syntax highlighting, autocomplete)
+- Neovim with LazyVim configuration
+- FiraCode Nerd Font
+- Terminal tools (FastFetch, Btop, Tmux, Atuin)
+- GNOME extensions and themes
+- Dark mode and custom terminal theme
+- Development tools (NVM, GitHub CLI)
+
+### Helper Scripts
+
+- **`install.sh`** - Main installation script
+- **`verify-setup.sh`** - Verify installation status
+- **`apply-gnome-settings.sh`** - Reapply GNOME settings
+- **`QUICKSTART.md`** - Quick start guide
+- **`TROUBLESHOOTING.md`** - Troubleshooting guide
+
+### Manual Extension Installation
+
+If GNOME extensions don't auto-install, use **Extension Manager** app or visit:
+- https://extensions.gnome.org
+
+Required extensions:
+- PaperWM, Tiling Assistant, Tiling Shell
+- Blur My Shell, OpenBar, Just Perfection
+- Clipboard Indicator, Media Controls, Hide Top Bar
+
+
+
 <div align="center">
 
 ## Table of Contents
@@ -97,9 +146,14 @@ I use GNOME with several extensions to enhance functionality and aesthetics.
 
 ## Bootloader (GRUB)
 ---
-* **Themes**:
+* **Themes**: *(Removed from auto-install for safety)*
     * `double-minegrub-menu` (Minecraft-inspired theme)
     * `Gorgeous-GRUB-Archive`
+  
+> [!NOTE]
+> GRUB themes are no longer automatically installed to prevent bootloader issues.
+> You can manually install GRUB themes if desired.
+
 ---
 
 <div align="center">
